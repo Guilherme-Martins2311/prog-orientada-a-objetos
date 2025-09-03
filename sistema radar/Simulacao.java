@@ -1,14 +1,14 @@
 public class Simulacao {
     public static void main(String[] args) {
-        Carro opala = new Carro();
+        Carro opala = new Carro("ACLR100", 0, 76, "Comodoro");
         opala.velocidade = 0;
         opala.placa = "ACLR100";
         opala.modelo = "Comodoro";
         opala.ano = 76;
 
-        Radar radar = new Radar();
+        Radar radar = new Radar("pardal", 60, "Pistao Sul");
         radar.modelo = "pardal";
-        radar.limiteVelociade = 60;
+        radar.limiteVelocidade = 60;
         radar.localizacao = "Pistao Sul";
 
         opala.acelerar(); // 10
