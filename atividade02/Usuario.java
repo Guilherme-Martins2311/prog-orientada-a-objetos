@@ -6,6 +6,14 @@ public class Usuario extends Pessoa {
         this.matricula = matricula;
     }
 
+    public int getMatricula() {
+        return this.matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
     @Override
     public void exibirInfo() {
         System.out.println("Nome: " + getNome());

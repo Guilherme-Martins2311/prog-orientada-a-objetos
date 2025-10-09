@@ -6,6 +6,14 @@ public class Funcionario extends Pessoa {
         this.cargo = cargo;
     }
 
+    public String getCargo() {
+        return this.cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
     @Override
     public void exibirInfo() {
         System.out.println("Nome: " + getNome());
